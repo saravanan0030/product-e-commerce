@@ -40,7 +40,6 @@ buttons.forEach((button)=>{
     });
 });
 
-
 function setActiveBtn(e){
     buttons.forEach((button)=>{
         button.classList.remove('btn-clicked');
