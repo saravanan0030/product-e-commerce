@@ -15,7 +15,7 @@ boxes.forEach((box)=>{
 buttons.forEach((button)=>{
     button.classList.remove('btn-clicked');
 });
-buttons[0].classList.add('btn-clicked');
+buttons[0].classList.add('btn-clicked'); 
 });
  
 buttons.forEach((button)=>{
