@@ -2,7 +2,7 @@ const buttons=document.querySelectorAll('.btn');
 const boxes=document.querySelectorAll('.box');
 const searchBox=document.querySelector("#search");
 /*search product by textbox*/
-searchBox.addEventListener('keyup',(e)=>{
+searchBox.addEventListener('keyup',(e)=>{ 
 searchText=e.target.value .toLowerCase() .trim();
 boxes.forEach((box)=>{
     const data=box.dataset.item;

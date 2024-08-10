@@ -41,7 +41,7 @@ body{
     display: flex;
     padding: 10px 0px;
     justify-content: space-between;
-    align-items: center;
+    align-items: center; 
 
 }
 .btn-group button{
